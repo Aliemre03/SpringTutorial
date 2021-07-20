@@ -7,7 +7,6 @@ import javax.persistence.*
 
 @Entity
 data class Transaction(
-
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")

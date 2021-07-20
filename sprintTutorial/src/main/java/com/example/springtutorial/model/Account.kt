@@ -30,7 +30,6 @@ data class Account(
         creationDate = creationDate
     )
 
-
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
@@ -52,5 +51,4 @@ data class Account(
         result = 31 * result + (customer?.hashCode() ?: 0)
         return result
     }
-
 }
