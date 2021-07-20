@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Bean;
 import java.time.Clock;
 
 @SpringBootApplication
+
 public class SpringTutorialApplication implements CommandLineRunner {
 
     private final CustomerRepository customerRepository;
